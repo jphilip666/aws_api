@@ -20,7 +20,7 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Server is running!');
 });
 
-// invalid route
+// Invalid Route
 app.use((req, res) => {
   res.status(404).send("Not found");
 });

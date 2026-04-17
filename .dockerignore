@@ -1,0 +1,33 @@
+# Node modules (install inside container)
+node_modules
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+*.log
+
+# Environment variables (secrets)
+.env
+.env.*
+
+# Git
+.git
+.gitignore
+
+# Docker (optional)
+Dockerfile
+.dockerignore
+
+# Build output (if using TypeScript or bundlers)
+dist
+build
+
+# Tests / coverage
+coverage
+*.test.js
+
+# OS / editor files
+.DS_Store
+.vscode
+.idea
